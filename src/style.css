@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url(http:fonts.googleapis.com/css?family=Satisfy);
+@import url(http:fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,400italic);
+@import url(http:fonts.googleapis.com/css?family=Oswald:300,400,700);
     body{
     background-color: #1e1a1a;
     color: #4e4e4e;
@@ -20,7 +23,8 @@
     font-size: 30px;
     font-style: italic;
     margin: 0px 0px 0px 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   }
 
 
@@ -679,11 +683,12 @@
     font-size: 30px;
     margin: 0;
     padding: 0;
-     font-family: Arial, Helvetica, sans-serif;
+     /* font-family: Arial, Helvetica, sans-serif; */
+     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     letter-spacing: 1px;
   }
   
-  #header .logo a {
+  #header {
     color:#ff2400;
   }
   
@@ -728,7 +733,7 @@
   
   .hero .hero-title {
     color:#ff2400;
-   font-family: cursive;
+   /* font-family: cursive; */
     font-size:68px;
   
   }
@@ -741,7 +746,7 @@
   
   .hero .hero-subtitle {
     font-size: 30px;
-    font-family: cursive;
+    /* font-family: cursive; */
     
     
   }
