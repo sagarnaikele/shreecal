@@ -939,8 +939,20 @@ $(document).ready(function () {
         }
     ];
 
-    $('table').bootstrapTable({
-        data: toolData
-    });
+   // let table = document.getElementById("tbltools");
+    let tableBody = document.getElementById("tblBody");
 
+    
+    toolData.forEach((item) => {
+        let tr = document.createElement("tr");
+        let vals = Object.values(item);
+        vals.forEach((elem) => {
+           let td = document.createElement("td");
+           td.innerText = elem;
+           tr.appendChild(td);
+        });
+        tableBody.appendChild(tr);
+     });
+     $("#tbltools").DataTable();
 });
+
