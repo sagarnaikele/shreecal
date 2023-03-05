@@ -440,11 +440,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (this.pause.status) return;
 	      if (this.cursorBlinking === isBlinking) return;
 	      this.cursorBlinking = isBlinking;
-	      if (isBlinking) {
-	        this.cursor.classList.add('typed-cursor--blink');
-	      } else {
-	        this.cursor.classList.remove('typed-cursor--blink');
-	      }
+	    //   if (isBlinking) {
+	    //     this.cursor.classList.add('typed-cursor--blink');
+	    //   } else {
+	    //     this.cursor.classList.remove('typed-cursor--blink');
+	    //   }
 	    }
 	
 	    /**
