@@ -1,0 +1,25 @@
+.contact {
+  font-family: 'Lato', sans-serif;
+  background-image: url(home-bg.jpg);
+  width: auto;
+  height:700px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+
+#form_contact{
+  margin-left:15px;
+  width:300px;
+}
+
+
